@@ -1,12 +1,11 @@
 ###############################################################################
-# Sex-stratified sgACC WGCNA and module differential connectivity (controls)
-#
+# Sex-stratified sgACC WGCNA and module differential connectivity (non-psychiatric subjects)
+# Data analyzed were previously generated in Arbabi et al., 2025 - PMID: 39237723
 # Cell types: PVALB, SST, VIP, PyrL2n3, PyrL5n6
 # Network: signed; minModuleSize = 100; deepSplit = 2
-# Robustness: 50 split-half repetitions; 100 preservation permutations
+# Robustness/module preservation: 50 split-half repetitions; 100 preservation permutations
 # MDC: male/female ratio with 1,000 gene-set permutations
 #
-# This script intentionally does not perform module-trait association testing.
 ###############################################################################
 
 options(stringsAsFactors = FALSE)
